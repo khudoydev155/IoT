@@ -1,0 +1,13 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "pio": true,
+        "/^python -m platformio --version$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -m pip install platformio$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
